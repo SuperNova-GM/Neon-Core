@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>NEON CORE MAX</title>
+  <style>
+    body {
+      background: #05070d;
+      color: #9eefff;
+      font-family: monospace;
+      padding: 30px;
+    }
+    .panel {
+      border: 1px solid #1ee7ff;
+      padding: 24px;
+      max-width: 720px;
+      margin: auto;
+      box-shadow: 0 0 25px #1ee7ff55;
+    }
+    h1 {
+      text-align: center;
+      letter-spacing: 3px;
+    }
+    .bar {
+      background: #111827;
+      margin: 12px 0;
+      border: 1px solid #1ee7ff55;
+    }
+    .fill {
+      background: #1ee7ff;
+      height: 18px;
+      width: 0;
+      animation: load 2s forwards;
+    }
+    @keyframes load {
+      0% { width: 100%; }
+      100% { width: 69%; }
+    }
+    .section {
+      margin-top: 24px;
+      border-top: 1px solid #1ee7ff44;
+      padding-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>◤ NEON CORE MAX ◢</h1>
+
+    <p>KULLANICI: SuperNova</p>
+    <p>DURUM: AKTİF</p>
+    <p>KONUM: Ząbki, Mazowieckie / Polonya</p>
+
+    <div class="section">
+      <p>NEON CORE başlatılıyor...</p>
+      <div class="bar"><div class="fill"></div></div>
+      <p>Sistem durumu: %69</p>
+    </div>
+
+    <div class="section">
+      <p>AKTİF MODÜLLER</p>
+      <p>◉ Günlük Rapor</p>
+      <p>◉ Vardiya Koruma Sistemi</p>
+      <p>◉ Hava Durumu Takibi</p>
+      <p>◉ Enerji Analizi</p>
+      <p>◉ GitHub Çekirdeği</p>
+    </div>
+
+    <div class="section">
+      <p>NEON ANALİZİ</p>
+      <p>“Sistem çekirdeği stabil. Prototip arayüz başlatıldı.”</p>
+    </div>
+  </div>
+</body>
+</html>
